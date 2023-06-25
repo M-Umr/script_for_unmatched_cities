@@ -17,7 +17,7 @@ def get_sound_matches(target_word, word_list):
         else:
             min_ratio = min(ratios)
             min_index = ratios.index(min_ratio)
-            # print(f"the {word} match ratio with {target_soundex}: {ratio}")
+            print(f"the {word} match ratio with {target_soundex}: {ratio}")
             if ratio > min_ratio:
                 
                 matches[min_index] = word
